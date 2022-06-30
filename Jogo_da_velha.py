@@ -38,7 +38,7 @@ def tabuleiro():  # tabuleiro do jogo
     print(f'   {m[2][0]} | {m[2][1]} | {m[2][2]}')
 
 
-def vitoria (m): # verifica condição de vitótia
+def vitoria (m): # verifica condição de vitória
     fim = 0
     linhas = [0,0,0]
     colunas = [0,0,0]
